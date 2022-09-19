@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ATM_Consulta</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Principal</string>
+    <string name="menu_services">Serviços</string>
+    <string name="menu_customers">Clientes</string>
+    <string name="atenav_header_dimento_atmconsultoria_com_br">atendimento@atmconsultoria.com.br</string>
+    <string name="nav_header_atm_consultoria">ATM Consultoria</string>
+
+</resources>
