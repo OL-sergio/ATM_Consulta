@@ -18,14 +18,12 @@ public class ServicesFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        ServicesViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(ServicesViewModel.class);
+
 
         binding = FragmentServicesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 

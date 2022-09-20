@@ -7,10 +7,16 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_info">Info</string>
     <string name="menu_home">Principal</string>
     <string name="menu_services">Serviços</string>
     <string name="menu_customers">Clientes</string>
-    <string name="atenav_header_dimento_atmconsultoria_com_br">atendimento@atmconsultoria.com.br</string>
+
+    <string name="nav_header_dimento_atmconsultoria_com_br">atendimento@atmconsultoria.com.br</string>
     <string name="nav_header_atm_consultoria">ATM Consultoria</string>
 
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

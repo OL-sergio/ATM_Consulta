@@ -4,19 +4,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".ui.customers.CustomersFragment">
 
     <TextView
-        android:id="@+id/text_gallery"
+        android:id="@+id/textView_customers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Clientes"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_textCustomers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="é uma canção da banda norte-americana de rock Linkin Park (imagem), gravada para o seu álbum de estreia, Hybrid Theory (2000). Foi escrita por todos os membros do grupo e produzida por Don Gilmore, sendo gravada entre os anos de 1999 e 2000 nos estúdios NRG Recording, ela gravadora Warner"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_customers" />
+
+    <TextView
+        android:id="@+id/textView_cielo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward"
+        android:text="Cielo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_textCustomers" />
+
+    <TextView
+        android:id="@+id/textView_braskem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward"
+        android:text="Braskem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_cielo" />
+
+    <TextView
+        android:id="@+id/textView_gerdau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward"
+        android:text="Gerdau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_natura" />
+
+    <TextView
+        android:id="@+id/textView_embraer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward"
+        android:text="Embraer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_braskem" />
+
+    <TextView
+        android:id="@+id/textView_natura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward"
+        android:text="Natura"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_embraer" />
+
+    <TextView
+        android:id="@+id/textView_lojasAmericanas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward"
+        android:text="Lojas Americanas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_gerdau" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
