@@ -11,26 +11,23 @@
         android:id="@+id/textView_system"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:text="Sistema de gestão de qualidade"
         android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView_textIndicators"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView_textSystem"
+        android:id="@+id/textView_textView_textSystem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text=" é uma canção da banda norte-americana de rock Linkin Park (imagem), gravada para o seu álbum de estreia, Hybrid Theory (2000). Foi escrita por todos os membros do grupo e produzida por Don Gilmore, sendo gravada entre os anos de 1999 e 2000 nos estúdios NRG Recording, ela gravadora Warner"
+        android:layout_marginTop="16dp"
+        android:text="Text test"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_indicators" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_system" />
 
     <TextView
         android:id="@+id/textView_indicators"
@@ -41,19 +38,18 @@
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_textIndicators" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_textView_textSystem" />
 
     <TextView
         android:id="@+id/textView_textIndicators"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="é uma canção da banda norte-americana de rock Linkin Park (imagem), gravada para o seu álbum de estreia, Hybrid Theory (2000). Foi escrita por todos os membros do grupo e produzida por Don Gilmore, sendo gravada entre os anos de 1999 e 2000 nos estúdios NRG Recording, ela gravadora Warner"
+        android:text="Text test"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_system" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_indicators" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
